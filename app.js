@@ -88,7 +88,7 @@ const html = `
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
         <a href="/" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
-			<img style="height:70px" src="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/logo2.jpg"> </img>
+			<img style="height:70px" src="images/logo2.jpg"> </img>
             <!-- <h2 class="m-0 text-primary">YGT ISI</h2> -->
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -121,13 +121,13 @@ const html = `
     <!-- Carousel Start -->
     <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="owl-carousel header-carousel position-relative">
-            <div class="owl-carousel-item position-relative" data-dot="<img src='https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/carousel-1.jpg'>">
-                <img class="img-fluid" src="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/carousel-1.jpg" alt="">
+            <div class="owl-carousel-item position-relative" data-dot="<img src='images/carousel-1.jpg'>">
+                <img class="img-fluid" src="images/carousel-1.jpg" alt="">
                 <div class="owl-carousel-inner">
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-10 col-lg-8">
-                                <h1 class="display-2 text-white animated slideInDown">Pioneers Of Solar And Renewable Energy</h1>
+                                <h1 class="display-2 text-white animated slideInDown">Doğal Gaz Isı Dönüşümleri</h1>
                                 <p class="fs-5 fw-medium text-white mb-4 pb-3">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
                                 <a href="" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Read More</a>
                             </div>
@@ -135,13 +135,13 @@ const html = `
                     </div>
                 </div>
             </div>
-            <div class="owl-carousel-item position-relative" data-dot="<img src='https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/carousel-2.jpg'>">
-                <img class="img-fluid" src="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/carousel-2.jpg" alt="">
+            <div class="owl-carousel-item position-relative" data-dot="<img src='images/carousel-2.jpg'>">
+                <img class="img-fluid" src="images/carousel-2.jpg" alt="">
                 <div class="owl-carousel-inner">
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-10 col-lg-8">
-                                <h1 class="display-2 text-white animated slideInDown">Pioneers Of Solar And Renewable Energy</h1>
+                                <h1 class="display-2 text-white animated slideInDown">Otomasyon</h1>
                                 <p class="fs-5 fw-medium text-white mb-4 pb-3">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
                                 <a href="" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Read More</a>
                             </div>
@@ -149,13 +149,13 @@ const html = `
                     </div>
                 </div>
             </div>
-            <div class="owl-carousel-item position-relative" data-dot="<img src='https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/carousel-3.jpg'>">
-                <img class="img-fluid" src="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/carousel-3.jpg" alt="">
+            <div class="owl-carousel-item position-relative" data-dot="<img src='images/carousel-3.jpg'>">
+                <img class="img-fluid" src="images/carousel-3.jpg" alt="">
                 <div class="owl-carousel-inner">
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-10 col-lg-8">
-                                <h1 class="display-2 text-white animated slideInDown">Pioneers Of Solar And Renewable Energy</h1>
+                                <h1 class="display-2 text-white animated slideInDown">Mühendislik</h1>
                                 <p class="fs-5 fw-medium text-white mb-4 pb-3">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
                                 <a href="" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Read More</a>
                             </div>
@@ -177,9 +177,9 @@ const html = `
                         <div class="btn-lg-square bg-primary rounded-circle me-3">
                             <i class="fa fa-users text-white"></i>
                         </div>
-                        <h1 class="mb-0" data-toggle="counter-up">3453</h1>
+                        <h1 class="mb-0" data-toggle="counter-up">451</h1>
                     </div>
-                    <h5 class="mb-3">Happy Customers</h5>
+                    <h5 class="mb-3">Mutlu Müşteri</h5>
                     <span>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit</span>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
@@ -187,9 +187,9 @@ const html = `
                         <div class="btn-lg-square bg-primary rounded-circle me-3">
                             <i class="fa fa-check text-white"></i>
                         </div>
-                        <h1 class="mb-0" data-toggle="counter-up">4234</h1>
+                        <h1 class="mb-0" data-toggle="counter-up">234</h1>
                     </div>
-                    <h5 class="mb-3">Project Done</h5>
+                    <h5 class="mb-3">Tamamlanan Proje</h5>
                     <span>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit</span>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
@@ -209,7 +209,7 @@ const html = `
                         </div>
                         <h1 class="mb-0" data-toggle="counter-up">1831</h1>
                     </div>
-                    <h5 class="mb-3">Expert Workers</h5>
+                    <h5 class="mb-3">Kesintisiz çalışma saati</h5>
                     <span>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit</span>
                 </div>
             </div>
@@ -224,7 +224,7 @@ const html = `
             <div class="row g-0 mx-lg-0">
                 <div class="col-lg-6 ps-lg-0 wow fadeIn" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/about.jpg" style="object-fit: cover;" alt="">
+                        <img class="position-absolute img-fluid w-100 h-100" src="images/about.jpg" style="object-fit: cover;" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
@@ -254,7 +254,7 @@ const html = `
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/img-600x400-1.jpg" alt="">
+                        <img class="img-fluid" src="images/img-600x400-1.jpg" alt="">
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
                                 <i class="fa fa-solar-panel fa-3x"></i>
@@ -267,7 +267,7 @@ const html = `
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/img-600x400-2.jpg" alt="">
+                        <img class="img-fluid" src="images/img-600x400-2.jpg" alt="">
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
                                 <i class="fa fa-wind fa-3x"></i>
@@ -280,7 +280,7 @@ const html = `
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/img-600x400-3.jpg" alt="">
+                        <img class="img-fluid" src="images/img-600x400-3.jpg" alt="">
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
                                 <i class="fa fa-lightbulb fa-3x"></i>
@@ -293,7 +293,7 @@ const html = `
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/img-600x400-4.jpg" alt="">
+                        <img class="img-fluid" src="images/img-600x400-4.jpg" alt="">
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
                                 <i class="fa fa-solar-panel fa-3x"></i>
@@ -306,7 +306,7 @@ const html = `
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/img-600x400-5.jpg" alt="">
+                        <img class="img-fluid" src="images/img-600x400-5.jpg" alt="">
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
                                 <i class="fa fa-wind fa-3x"></i>
@@ -319,7 +319,7 @@ const html = `
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/img-600x400-6.jpg" alt="">
+                        <img class="img-fluid" src="images/img-600x400-6.jpg" alt="">
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
                                 <i class="fa fa-lightbulb fa-3x"></i>
@@ -395,7 +395,7 @@ const html = `
                 </div>
                 <div class="col-lg-6 pe-lg-0 wow fadeIn" data-wow-delay="0.5s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/feature.jpg" style="object-fit: cover;" alt="">
+                        <img class="position-absolute img-fluid w-100 h-100" src="images/feature.jpg" style="object-fit: cover;" alt="">
                     </div>
                 </div>
             </div>
@@ -424,9 +424,9 @@ const html = `
             <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.5s">
                 <div class="col-lg-4 col-md-6 portfolio-item first">
                     <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/img-600x400-6.jpg" alt="">
+                        <img class="img-fluid" src="images/img-600x400-6.jpg" alt="">
                         <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/img-600x400-6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="images/img-600x400-6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
                         </div>
                     </div>
@@ -438,9 +438,9 @@ const html = `
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item second">
                     <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/img-600x400-5.jpg" alt="">
+                        <img class="img-fluid" src="images/img-600x400-5.jpg" alt="">
                         <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/img-600x400-5.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="images/img-600x400-5.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
                         </div>
                     </div>
@@ -452,9 +452,9 @@ const html = `
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item third">
                     <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/img-600x400-4.jpg" alt="">
+                        <img class="img-fluid" src="images/img-600x400-4.jpg" alt="">
                         <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/img-600x400-4.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="images/img-600x400-4.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
                         </div>
                     </div>
@@ -466,9 +466,9 @@ const html = `
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item first">
                     <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/img-600x400-3.jpg" alt="">
+                        <img class="img-fluid" src="images/img-600x400-3.jpg" alt="">
                         <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/img-600x400-3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="images/img-600x400-3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
                         </div>
                     </div>
@@ -480,9 +480,9 @@ const html = `
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item second">
                     <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/img-600x400-2.jpg" alt="">
+                        <img class="img-fluid" src="images/img-600x400-2.jpg" alt="">
                         <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/img-600x400-2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="images/img-600x400-2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
                         </div>
                     </div>
@@ -494,9 +494,9 @@ const html = `
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item third">
                     <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/img-600x400-1.jpg" alt="">
+                        <img class="img-fluid" src="images/img-600x400-1.jpg" alt="">
                         <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/img-600x400-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="images/img-600x400-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
                         </div>
                     </div>
@@ -518,7 +518,7 @@ const html = `
             <div class="row g-0 mx-lg-0">
                 <div class="col-lg-6 ps-lg-0 wow fadeIn" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/quote.jpg" style="object-fit: cover;" alt="">
+                        <img class="position-absolute img-fluid w-100 h-100" src="images/quote.jpg" style="object-fit: cover;" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
@@ -572,7 +572,7 @@ const html = `
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item rounded overflow-hidden">
                         <div class="d-flex">
-                            <img class="img-fluid w-75" src="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/team-1.jpg" alt="">
+                            <img class="img-fluid w-75" src="images/team-1.jpg" alt="">
                             <div class="team-social w-25">
                                 <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-twitter"></i></a>
@@ -588,7 +588,7 @@ const html = `
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item rounded overflow-hidden">
                         <div class="d-flex">
-                            <img class="img-fluid w-75" src="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/team-2.jpg" alt="">
+                            <img class="img-fluid w-75" src="images/team-2.jpg" alt="">
                             <div class="team-social w-25">
                                 <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-twitter"></i></a>
@@ -604,7 +604,7 @@ const html = `
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item rounded overflow-hidden">
                         <div class="d-flex">
-                            <img class="img-fluid w-75" src="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/team-3.jpg" alt="">
+                            <img class="img-fluid w-75" src="images/team-3.jpg" alt="">
                             <div class="team-social w-25">
                                 <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-twitter"></i></a>
@@ -633,7 +633,7 @@ const html = `
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                 <div class="testimonial-item text-center">
                     <div class="testimonial-img position-relative">
-                        <img class="img-fluid rounded-circle mx-auto mb-5" src="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/testimonial-1.jpg">
+                        <img class="img-fluid rounded-circle mx-auto mb-5" src="images/testimonial-1.jpg">
                         <div class="btn-square bg-primary rounded-circle">
                             <i class="fa fa-quote-left text-white"></i>
                         </div>
@@ -646,7 +646,7 @@ const html = `
                 </div>
                 <div class="testimonial-item text-center">
                     <div class="testimonial-img position-relative">
-                        <img class="img-fluid rounded-circle mx-auto mb-5" src="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/testimonial-2.jpg">
+                        <img class="img-fluid rounded-circle mx-auto mb-5" src="images/testimonial-2.jpg">
                         <div class="btn-square bg-primary rounded-circle">
                             <i class="fa fa-quote-left text-white"></i>
                         </div>
@@ -659,7 +659,7 @@ const html = `
                 </div>
                 <div class="testimonial-item text-center">
                     <div class="testimonial-img position-relative">
-                        <img class="img-fluid rounded-circle mx-auto mb-5" src="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/testimonial-3.jpg">
+                        <img class="img-fluid rounded-circle mx-auto mb-5" src="images/testimonial-3.jpg">
                         <div class="btn-square bg-primary rounded-circle">
                             <i class="fa fa-quote-left text-white"></i>
                         </div>
@@ -706,22 +706,22 @@ const html = `
                     <h5 class="text-white mb-4">Project Gallery</h5>
                     <div class="row g-2">
                         <div class="col-4">
-                            <img class="img-fluid rounded" src="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/gallery-1.jpg" alt="">
+                            <img class="img-fluid rounded" src="images/gallery-1.jpg" alt="">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid rounded" src="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/gallery-2.jpg" alt="">
+                            <img class="img-fluid rounded" src="images/gallery-2.jpg" alt="">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid rounded" src="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/gallery-3.jpg" alt="">
+                            <img class="img-fluid rounded" src="images/gallery-3.jpg" alt="">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid rounded" src="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/gallery-4.jpg" alt="">
+                            <img class="img-fluid rounded" src="images/gallery-4.jpg" alt="">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid rounded" src="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/gallery-5.jpg" alt="">
+                            <img class="img-fluid rounded" src="images/gallery-5.jpg" alt="">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid rounded" src="https://ygt-dev-serverlessdeploymentbucket-q6esh52y0ulr.s3.amazonaws.com/serverless/ygt/dev/images/gallery-6.jpg" alt="">
+                            <img class="img-fluid rounded" src="images/gallery-6.jpg" alt="">
                         </div>
                     </div>
                 </div>
