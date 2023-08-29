@@ -88,7 +88,7 @@ const html = `
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
         <a href="/" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
-			<img style="height:70px" src="imglogo2.jpg"> </img>
+			<img style="height:70px" src="img/logo2.jpg"> </img>
             <!-- <h2 class="m-0 text-primary">YGT ISI</h2> -->
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -122,7 +122,7 @@ const html = `
     <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="owl-carousel header-carousel position-relative">
             <div class="owl-carousel-item position-relative" data-dot="<img src='imgcarousel-1.jpg'>">
-                <img class="img-fluid" src="imgcarousel-1.jpg" alt="">
+                <img class="img-fluid" src="img/carousel-1.jpg" alt="">
                 <div class="owl-carousel-inner">
                     <div class="container">
                         <div class="row justify-content-start">
@@ -136,7 +136,7 @@ const html = `
                 </div>
             </div>
             <div class="owl-carousel-item position-relative" data-dot="<img src='imgcarousel-2.jpg'>">
-                <img class="img-fluid" src="imgcarousel-2.jpg" alt="">
+                <img class="img-fluid" src="img/carousel-2.jpg" alt="">
                 <div class="owl-carousel-inner">
                     <div class="container">
                         <div class="row justify-content-start">
@@ -150,7 +150,7 @@ const html = `
                 </div>
             </div>
             <div class="owl-carousel-item position-relative" data-dot="<img src='imgcarousel-3.jpg'>">
-                <img class="img-fluid" src="imgcarousel-3.jpg" alt="">
+                <img class="img-fluid" src="img/carousel-3.jpg" alt="">
                 <div class="owl-carousel-inner">
                     <div class="container">
                         <div class="row justify-content-start">
@@ -224,7 +224,7 @@ const html = `
             <div class="row g-0 mx-lg-0">
                 <div class="col-lg-6 ps-lg-0 wow fadeIn" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="imgabout.jpg" style="object-fit: cover;" alt="">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/about.jpg" style="object-fit: cover;" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
@@ -254,7 +254,7 @@ const html = `
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="imgimg-600x400-1.jpg" alt="">
+                        <img class="img-fluid" src="img/img-600x400-1.jpg" alt="">
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
                                 <i class="fa fa-solar-panel fa-3x"></i>
@@ -267,7 +267,7 @@ const html = `
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="imgimg-600x400-2.jpg" alt="">
+                        <img class="img-fluid" src="img/img-600x400-2.jpg" alt="">
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
                                 <i class="fa fa-wind fa-3x"></i>
@@ -280,7 +280,7 @@ const html = `
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="imgimg-600x400-3.jpg" alt="">
+                        <img class="img-fluid" src="img/img-600x400-3.jpg" alt="">
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
                                 <i class="fa fa-lightbulb fa-3x"></i>
@@ -293,7 +293,7 @@ const html = `
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="imgimg-600x400-4.jpg" alt="">
+                        <img class="img-fluid" src="img/img-600x400-4.jpg" alt="">
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
                                 <i class="fa fa-solar-panel fa-3x"></i>
@@ -306,7 +306,7 @@ const html = `
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="imgimg-600x400-5.jpg" alt="">
+                        <img class="img-fluid" src="img/img-600x400-5.jpg" alt="">
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
                                 <i class="fa fa-wind fa-3x"></i>
@@ -319,7 +319,7 @@ const html = `
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="imgimg-600x400-6.jpg" alt="">
+                        <img class="img-fluid" src="img/img-600x400-6.jpg" alt="">
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
                                 <i class="fa fa-lightbulb fa-3x"></i>
@@ -395,7 +395,7 @@ const html = `
                 </div>
                 <div class="col-lg-6 pe-lg-0 wow fadeIn" data-wow-delay="0.5s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="imgfeature.jpg" style="object-fit: cover;" alt="">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/feature.jpg" style="object-fit: cover;" alt="">
                     </div>
                 </div>
             </div>
@@ -424,7 +424,7 @@ const html = `
             <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.5s">
                 <div class="col-lg-4 col-md-6 portfolio-item first">
                     <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="imgimg-600x400-6.jpg" alt="">
+                        <img class="img-fluid" src="img/img-600x400-6.jpg" alt="">
                         <div class="portfolio-btn">
                             <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="imgimg-600x400-6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
@@ -438,7 +438,7 @@ const html = `
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item second">
                     <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="imgimg-600x400-5.jpg" alt="">
+                        <img class="img-fluid" src="img/img-600x400-5.jpg" alt="">
                         <div class="portfolio-btn">
                             <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="imgimg-600x400-5.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
@@ -452,7 +452,7 @@ const html = `
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item third">
                     <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="imgimg-600x400-4.jpg" alt="">
+                        <img class="img-fluid" src="img/img-600x400-4.jpg" alt="">
                         <div class="portfolio-btn">
                             <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="imgimg-600x400-4.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
@@ -466,7 +466,7 @@ const html = `
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item first">
                     <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="imgimg-600x400-3.jpg" alt="">
+                        <img class="img-fluid" src="img/img-600x400-3.jpg" alt="">
                         <div class="portfolio-btn">
                             <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="imgimg-600x400-3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
@@ -480,7 +480,7 @@ const html = `
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item second">
                     <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="imgimg-600x400-2.jpg" alt="">
+                        <img class="img-fluid" src="img/img-600x400-2.jpg" alt="">
                         <div class="portfolio-btn">
                             <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="imgimg-600x400-2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
@@ -494,7 +494,7 @@ const html = `
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item third">
                     <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="imgimg-600x400-1.jpg" alt="">
+                        <img class="img-fluid" src="img/img-600x400-1.jpg" alt="">
                         <div class="portfolio-btn">
                             <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="imgimg-600x400-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
@@ -518,7 +518,7 @@ const html = `
             <div class="row g-0 mx-lg-0">
                 <div class="col-lg-6 ps-lg-0 wow fadeIn" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="imgquote.jpg" style="object-fit: cover;" alt="">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/quote.jpg" style="object-fit: cover;" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
@@ -572,7 +572,7 @@ const html = `
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item rounded overflow-hidden">
                         <div class="d-flex">
-                            <img class="img-fluid w-75" src="imgteam-1.jpg" alt="">
+                            <img class="img-fluid w-75" src="img/team-1.jpg" alt="">
                             <div class="team-social w-25">
                                 <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-twitter"></i></a>
@@ -588,7 +588,7 @@ const html = `
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item rounded overflow-hidden">
                         <div class="d-flex">
-                            <img class="img-fluid w-75" src="imgteam-2.jpg" alt="">
+                            <img class="img-fluid w-75" src="img/team-2.jpg" alt="">
                             <div class="team-social w-25">
                                 <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-twitter"></i></a>
@@ -604,7 +604,7 @@ const html = `
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item rounded overflow-hidden">
                         <div class="d-flex">
-                            <img class="img-fluid w-75" src="imgteam-3.jpg" alt="">
+                            <img class="img-fluid w-75" src="img/team-3.jpg" alt="">
                             <div class="team-social w-25">
                                 <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-twitter"></i></a>
@@ -633,7 +633,7 @@ const html = `
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                 <div class="testimonial-item text-center">
                     <div class="testimonial-img position-relative">
-                        <img class="img-fluid rounded-circle mx-auto mb-5" src="imgtestimonial-1.jpg">
+                        <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-1.jpg">
                         <div class="btn-square bg-primary rounded-circle">
                             <i class="fa fa-quote-left text-white"></i>
                         </div>
@@ -646,7 +646,7 @@ const html = `
                 </div>
                 <div class="testimonial-item text-center">
                     <div class="testimonial-img position-relative">
-                        <img class="img-fluid rounded-circle mx-auto mb-5" src="imgtestimonial-2.jpg">
+                        <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-2.jpg">
                         <div class="btn-square bg-primary rounded-circle">
                             <i class="fa fa-quote-left text-white"></i>
                         </div>
@@ -659,7 +659,7 @@ const html = `
                 </div>
                 <div class="testimonial-item text-center">
                     <div class="testimonial-img position-relative">
-                        <img class="img-fluid rounded-circle mx-auto mb-5" src="imgtestimonial-3.jpg">
+                        <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-3.jpg">
                         <div class="btn-square bg-primary rounded-circle">
                             <i class="fa fa-quote-left text-white"></i>
                         </div>
@@ -706,22 +706,22 @@ const html = `
                     <h5 class="text-white mb-4">Project Gallery</h5>
                     <div class="row g-2">
                         <div class="col-4">
-                            <img class="img-fluid rounded" src="imggallery-1.jpg" alt="">
+                            <img class="img-fluid rounded" src="img/gallery-1.jpg" alt="">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid rounded" src="imggallery-2.jpg" alt="">
+                            <img class="img-fluid rounded" src="img/gallery-2.jpg" alt="">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid rounded" src="imggallery-3.jpg" alt="">
+                            <img class="img-fluid rounded" src="img/gallery-3.jpg" alt="">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid rounded" src="imggallery-4.jpg" alt="">
+                            <img class="img-fluid rounded" src="img/gallery-4.jpg" alt="">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid rounded" src="imggallery-5.jpg" alt="">
+                            <img class="img-fluid rounded" src="img/gallery-5.jpg" alt="">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid rounded" src="imggallery-6.jpg" alt="">
+                            <img class="img-fluid rounded" src="img/gallery-6.jpg" alt="">
                         </div>
                     </div>
                 </div>
