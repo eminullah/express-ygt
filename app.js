@@ -74,9 +74,9 @@ const html = `
                     <small>GSM: 0532 100 04 97</small>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center mx-n2">
-                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-facebook-f"></i></a>
+                    <!--<a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-linkedin-in"></i></a>-->
                     <a class="btn btn-square btn-link rounded-0" href="https://instagram.com/ygtisi?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" ><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
@@ -180,7 +180,7 @@ const html = `
                         <h1 class="mb-0" data-toggle="counter-up">451</h1>
                     </div>
                     <h5 class="mb-3">Mutlu Müşteri</h5>
-                    <span>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit</span>
+                    <!--<span>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit</span>-->
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
                     <div class="d-flex align-items-center mb-4">
@@ -190,27 +190,27 @@ const html = `
                         <h1 class="mb-0" data-toggle="counter-up">234</h1>
                     </div>
                     <h5 class="mb-3">Tamamlanan Proje</h5>
-                    <span>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit</span>
+                    <!--<span>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit</span>-->
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
                     <div class="d-flex align-items-center mb-4">
                         <div class="btn-lg-square bg-primary rounded-circle me-3">
                             <i class="fa fa-award text-white"></i>
                         </div>
-                        <h1 class="mb-0" data-toggle="counter-up">3123</h1>
+                        <h1 class="mb-0" data-toggle="counter-up">22</h1>
                     </div>
-                    <h5 class="mb-3">Awards Win</h5>
-                    <span>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit</span>
+                    <h5 class="mb-3">Yıllık Tecrübe</h5>
+                    <!--<span>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit</span>-->
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
                     <div class="d-flex align-items-center mb-4">
                         <div class="btn-lg-square bg-primary rounded-circle me-3">
                             <i class="fa fa-users-cog text-white"></i>
                         </div>
-                        <h1 class="mb-0" data-toggle="counter-up">1831</h1>
+                        <h1 class="mb-0" data-toggle="counter-up">7/24</h1>
                     </div>
-                    <h5 class="mb-3">Kesintisiz çalışma saati</h5>
-                    <span>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit</span>
+                    <h5 class="mb-3">Teknik Destek</h5>
+                    <!--<span>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit</span>-->
                 </div>
             </div>
         </div>
@@ -224,18 +224,22 @@ const html = `
             <div class="row g-0 mx-lg-0">
                 <div class="col-lg-6 ps-lg-0 wow fadeIn" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/about.jpg" style="object-fit: cover;" alt="">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/a1.jpg" style="object-fit: cover;" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
                     <div class="p-lg-5 pe-lg-0">
-                        <h6 class="text-primary">About Us</h6>
-                        <h1 class="mb-4">25+ Years Experience In Solar & Renewable Energy Industry</h1>
-                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
-                        <p><i class="fa fa-check-circle text-primary me-3"></i>Diam dolor diam ipsum</p>
-                        <p><i class="fa fa-check-circle text-primary me-3"></i>Aliqu diam amet diam et eos</p>
-                        <p><i class="fa fa-check-circle text-primary me-3"></i>Tempor erat elitr rebum at clita</p>
-                        <a href="" class="btn btn-primary rounded-pill py-3 px-5 mt-3">Explore More</a>
+                        <h6 class="text-primary">Hakkımızda</h6>
+                        <h1 class="mb-4">+22 Yıllık Doğalgaz ve Isı Dönüşüm Sistemleri Kurulum ve Destek Tecrübesi</h1>
+                        <p>
+                            Şirketimiz Doğalgaz brülörleri, Sıcak su kazanları kurulumu, montajı ve periodik bakım hizmetleri; arıza teknik servisi; kazan otomasyonu ve devreye alma gibi konularda sizlere hizmet vermekteyiz.
+                            İhtiyaca özgü mühendislik-otomasyon çözümleri sunmaktayız.
+                        </p>
+                        <p><i class="fa fa-check-circle text-primary me-3"></i>Kaliteli Hizmet</p>
+                        <p><i class="fa fa-check-circle text-primary me-3"></i>Periodik Bakım</p>
+                        <p><i class="fa fa-check-circle text-primary me-3"></i>%100 Müşteri Memnuniyeti</p>
+                        <p><i class="fa fa-check-circle text-primary me-3"></i>Anahtar Teslim Mühendislik Hizmeti</p>
+                        <a href="" class="btn btn-primary rounded-pill py-3 px-5 mt-3">Daha fazla</a>
                     </div>
                 </div>
             </div>
@@ -248,85 +252,85 @@ const html = `
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h6 class="text-primary">Our Services</h6>
-                <h1 class="mb-4">We Are Pioneers In The World Of Renewable Energy</h1>
+                <h6 class="text-primary">Hizmetlerimiz</h6>
+                <h1 class="mb-4">Kalite odaklı, müşteri memnuniyeti garantili</h1>
             </div>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="img/img-600x400-1.jpg" alt="">
+                        <img class="img-fluid" src="img/s1.jpg" alt="">
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
-                                <i class="fa fa-solar-panel fa-3x"></i>
+                                <i class="fa fa-fire fa-3x"></i>
                             </div>
-                            <h4 class="mb-3">Solar Panels</h4>
-                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                            <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                            <h4 class="mb-3">Brülör Bakım</h4>
+                            <p>Brülör a dan z ye periodik bakımları</p>
+                            <a class="small fw-medium" href="">Daha fazla<i class="fa fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="img/img-600x400-2.jpg" alt="">
+                        <img class="img-fluid" src="img/s2.jpg" alt="">
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
-                                <i class="fa fa-wind fa-3x"></i>
+                                <i class="fa fa-wrench fa-3x"></i>
                             </div>
-                            <h4 class="mb-3">Wind Turbines</h4>
-                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                            <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                            <h4 class="mb-3">Kazan Bakım</h4>
+                            <p>Kazan tadilatları, bakımı ve değişimleri hizmeti</p>
+                            <a class="small fw-medium" href="">Daha fazla<i class="fa fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="img/img-600x400-3.jpg" alt="">
+                        <img class="img-fluid" src="img/s3.jpg" alt="">
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
-                                <i class="fa fa-lightbulb fa-3x"></i>
+                                <i class="fa fa-industry fa-3x"></i>
                             </div>
-                            <h4 class="mb-3">Hydropower Plants</h4>
-                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                            <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                            <h4 class="mb-3">Baca Gazı Analiz Ölçümü</h4>
+                            <p>Tüm ısı sistemleri baca gazı analizi hizmeti</p>
+                            <a class="small fw-medium" href="">Daha fazla<i class="fa fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="img/img-600x400-4.jpg" alt="">
+                        <img class="img-fluid" src="img/s4.jpg" alt="">
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
-                                <i class="fa fa-solar-panel fa-3x"></i>
+                                <i class="fa fa-search fa-3x"></i>
                             </div>
-                            <h4 class="mb-3">Solar Panels</h4>
-                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                            <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                            <h4 class="mb-3">Arıza Tespit</h4>
+                            <p>Isı Sistemleri kaynaklı tüm arıza tespiti hizmeti</p>
+                            <a class="small fw-medium" href="">Daha fazla<i class="fa fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="img/img-600x400-5.jpg" alt="">
+                        <img class="img-fluid" src="img/s5.jpg" alt="">
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
-                                <i class="fa fa-wind fa-3x"></i>
+                                <i class="fa fa-phone fa-3x"></i>
                             </div>
-                            <h4 class="mb-3">Wind Turbines</h4>
-                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                            <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                            <h4 class="mb-3">Teknik Destek</h4>
+                            <p>7/24 Teknik destek ve garanti hizmeti</p>
+                            <a class="small fw-medium" href="">Daha fazla<i class="fa fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="img/img-600x400-6.jpg" alt="">
+                        <img class="img-fluid" src="img/s6.jpg" alt="">
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
-                                <i class="fa fa-lightbulb fa-3x"></i>
+                                <i class="fa fa-bolt fa-3x"></i>
                             </div>
-                            <h4 class="mb-3">Hydropower Plants</h4>
-                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                            <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                            <h4 class="mb-3">Mühendislik-Otomasyon</h4>
+                            <p>İhtiyaca özgü çözümler</p>
+                            <a class="small fw-medium" href="">Daha fazla<i class="fa fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -342,9 +346,9 @@ const html = `
             <div class="row g-0 mx-lg-0">
                 <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.1s">
                     <div class="p-lg-5 ps-lg-0">
-                        <h6 class="text-primary">Why Choose Us!</h6>
-                        <h1 class="mb-4">Complete Commercial & Residential Solar Systems</h1>
-                        <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
+                        <h6 class="text-primary">Neden Bizi Tercih Etmelisiniz!</h6>
+                        <h1 class="mb-4">YGT ISI ELEKTRİK OTOMASYON MÜHENDİSLİK</h1>
+                        <p class="mb-4 pb-2">Alanında uzman kadro, yıllara dayanan tecrübe ve müşteri memnuniyeti odaklı hizmet anlayışımızla sizlere hizmet sunmaktayız.</p>
                         <div class="row g-4">
                             <div class="col-6">
                                 <div class="d-flex align-items-center">
@@ -352,8 +356,8 @@ const html = `
                                         <i class="fa fa-check text-white"></i>
                                     </div>
                                     <div class="ms-4">
-                                        <p class="mb-0">Quality</p>
-                                        <h5 class="mb-0">Services</h5>
+                                        <p class="mb-0">Kaliteli</p>
+                                        <h5 class="mb-0">Hizmet</h5>
                                     </div>
                                 </div>
                             </div>
@@ -363,8 +367,8 @@ const html = `
                                         <i class="fa fa-user-check text-white"></i>
                                     </div>
                                     <div class="ms-4">
-                                        <p class="mb-0">Expert</p>
-                                        <h5 class="mb-0">Workers</h5>
+                                        <p class="mb-0">Uzman</p>
+                                        <h5 class="mb-0">Ekip</h5>
                                     </div>
                                 </div>
                             </div>
@@ -374,8 +378,8 @@ const html = `
                                         <i class="fa fa-drafting-compass text-white"></i>
                                     </div>
                                     <div class="ms-4">
-                                        <p class="mb-0">Free</p>
-                                        <h5 class="mb-0">Consultation</h5>
+                                        <p class="mb-0">Ücretsiz</p>
+                                        <h5 class="mb-0">Teklif</h5>
                                     </div>
                                 </div>
                             </div>
@@ -385,8 +389,8 @@ const html = `
                                         <i class="fa fa-headphones text-white"></i>
                                     </div>
                                     <div class="ms-4">
-                                        <p class="mb-0">Customer</p>
-                                        <h5 class="mb-0">Support</h5>
+                                        <p class="mb-0">7/24</p>
+                                        <h5 class="mb-0">Teknik Servis</h5>
                                     </div>
                                 </div>
                             </div>
@@ -395,7 +399,7 @@ const html = `
                 </div>
                 <div class="col-lg-6 pe-lg-0 wow fadeIn" data-wow-delay="0.5s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/feature.jpg" style="object-fit: cover;" alt="">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/f1.jpg" style="object-fit: cover;" alt="">
                     </div>
                 </div>
             </div>
@@ -408,10 +412,10 @@ const html = `
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h6 class="text-primary">Our Projects</h6>
-                <h1 class="mb-4">Visit Our Latest Solar And Renewable Energy Projects</h1>
+                <h6 class="text-primary">Projelerimiz</h6>
+                <h1 class="mb-4">Son yapılan Projelerden örnekler</h1>
             </div>
-            <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
+            <!--<div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="col-12 text-center">
                     <ul class="list-inline mb-5" id="portfolio-flters">
                         <li class="mx-2 active" data-filter="*">All</li>
@@ -420,7 +424,7 @@ const html = `
                         <li class="mx-2" data-filter=".third">Hydropower Plants</li>
                     </ul>
                 </div>
-            </div>
+            </div>-->
             <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.5s">
                 <div class="col-lg-4 col-md-6 portfolio-item first">
                     <div class="portfolio-img rounded overflow-hidden">
@@ -518,7 +522,7 @@ const html = `
             <div class="row g-0 mx-lg-0">
                 <div class="col-lg-6 ps-lg-0 wow fadeIn" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/quote.jpg" style="object-fit: cover;" alt="">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/q1.jpg" style="object-fit: cover;" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
@@ -562,7 +566,7 @@ const html = `
 
 
     <!-- Team Start -->
-    <div class="container-xxl py-5">
+    <!--<div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h6 class="text-primary">Team Member</h6>
@@ -619,12 +623,12 @@ const html = `
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
     <!-- Team End -->
 
 
     <!-- Testimonial Start -->
-    <div class="container-xxl py-5">
+    <!--<div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h6 class="text-primary">Testimonial</h6>
@@ -672,7 +676,7 @@ const html = `
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
     <!-- Testimonial End -->
 
 
@@ -688,21 +692,22 @@ const html = `
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>GSM: 0532 100 04 97</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>ygt.isimuhendislik@gmail.com</p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <!--<a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>-->
+                        <a class="btn btn-square btn-outline-light btn-social" href="https://instagram.com/ygtisi?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <!--<div class="col-lg-4 col-md-6">
                     <h5 class="text-white mb-4">Quick Links</h5>
                     <a class="btn btn-link" href="">About Us</a>
                     <a class="btn btn-link" href="">Contact Us</a>
                     <a class="btn btn-link" href="">Our Services</a>
                     <a class="btn btn-link" href="">Terms & Condition</a>
                     <a class="btn btn-link" href="">Support</a>
-                </div>
-                <div class="col-lg-4 col-md-6">
+                </div>-->
+                <!--<div class="col-lg-4 col-md-6">
                     <h5 class="text-white mb-4">Project Gallery</h5>
                     <div class="row g-2">
                         <div class="col-4">
@@ -724,7 +729,7 @@ const html = `
                             <img class="img-fluid rounded" src="img/gallery-6.jpg" alt="">
                         </div>
                     </div>
-                </div>
+                </div>-->
                 <!--<div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Newsletter</h5>
                     <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
