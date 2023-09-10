@@ -584,16 +584,16 @@ const html = `
                         <h6 class="text-primary">7/24 Hızlı</h6>
                         <h1 class="mb-4">Teklif Al</h1>
                         <p class="mb-4 pb-2">Projenizi, projenizde kullanmak istediğiniz ekipmanları detaylandırın, size uygun en iyi çözümlerimizi fiyatlandıralım</p>
-                        <form>
+                        <form action="/Message" method="post">
                             <div class="row g-3">
                                 <div class="col-12 col-sm-12">
-                                    <input type="text" class="form-control border-4" placeholder="Adınız" style="height: 55px;">
+                                    <input type="text" class="form-control border-4" id="name" name="name" placeholder="Adınız" style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-12">
-                                    <input type="email" class="form-control border-4" placeholder="Email" style="height: 55px;">
+                                    <input type="email" class="form-control border-4" id="email" name="email" placeholder="Email" style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-12">
-                                    <input type="text" class="form-control border-4" placeholder="Telefon" style="height: 55px;">
+                                    <input type="text" class="form-control border-4" id="phone" name="phone" placeholder="Telefon" style="height: 55px;">
                                 </div>
                                 <!--<div class="col-12 col-sm-6">
                                     <select class="form-select border-0" style="height: 55px;">
@@ -604,7 +604,7 @@ const html = `
                                     </select>
                                 </div>-->
                                 <div class="col-12">
-                                    <textarea class="form-control border-4" placeholder="Notlar" rows="3"></textarea>
+                                    <textarea class="form-control border-4" placeholder="Notlar" id="message" name="message" rows="3"></textarea>
                                 </div>
                                 <div class="col-12">
                                     <button class="btn btn-primary rounded-pill py-3 px-5" type="submit">Gönder</button>
