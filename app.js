@@ -582,7 +582,7 @@ const html = `
                         <h6 class="text-primary">7/24 Hızlı</h6>
                         <h1 class="mb-4">Teklif Al</h1>
                         <p class="mb-4 pb-2">Projenizi, projenizde kullanmak istediğiniz ekipmanları detaylandırın, size uygun en iyi çözümlerimizi fiyatlandıralım</p>
-                        <form action="/Message" method="post">
+                        <form action="https://xn--ygts-nzab.com/Message" method="post">
                             <div class="row g-3">
                                 <div class="col-12 col-sm-12">
                                     <input type="text" class="form-control border-4" id="name" name="name" placeholder="Adınız" style="height: 55px;">
