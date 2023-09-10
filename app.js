@@ -1,9 +1,62 @@
+const bodyParser = require('body-parser');
 const express = require("express");
 const app = express();
 const port = process.env.PORT || 3001;
 
 app.use(express.static('static'));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
+    extended: true
+}));
 app.get("/", (req, res) => res.type('html').send(html));
+
+app.post("/Message", (req, res) => {
+    console.log(JSON.stringify(req.body));
+
+    if (!req.body.name || !req.body.email || !req.body.message) {
+        res.send("Missing Fields");
+        return;
+    }
+
+    fnSendEmail(req, res);
+
+});
+
+const nodemailer = require('nodemailer');
+
+const transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+        user: 'ygt.isimuhendislik@gmail.com',
+        pass: 'tqqtxjouvfoxowsv'
+    }
+});
+
+
+function fnSendEmail(req, res) {
+    try {
+
+        const mailOptions = {
+            from: 'ygt.isimuhendislik@gmail.com',
+            to: 'ygt.isimuhendislik@gmail.com',
+            subject: 'Web Message',
+            text: "Email: " + req.body.email + " \nSubject: Teklif \nMessage: " + req.body.message+" \nAd: " +req.body.name+" \nTel: " +req.body.phone,
+        };
+
+        transporter.sendMail(mailOptions, function (error, info) {
+            if (error) {
+                console.log(error);
+            } else {
+                console.log('Email sent: ' + info.response);
+                // do something useful
+                res.send({ rsltCd: "Success", rsltMsg: "Captcha token can not be verified", rsltClntMsg: "Robot do?rulamas? yap?lamad?.", rsltTyp: "Error" });
+            }
+        });
+
+    } catch (e) {
+        res.send({ rsltCd: "Fail", rsltMsg: "Captcha token can not be verified", rsltClntMsg: "Robot do?rulamas? yap?lamad?.", rsltTyp: "Error" });
+    }
+}
 
 const server = app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
