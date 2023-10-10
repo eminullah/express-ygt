@@ -23,10 +23,12 @@ app.post("/Message", (req, res) => {
 const nodemailer = require('nodemailer');
 
 const transporter = nodemailer.createTransport({
-    service: 'gmail',
+    host: 'smtp.gmail.com',
+    port: 465,
+    secure: true,
     auth: {
         user: 'ygt.isimuhendislik@gmail.com',
-        pass: 'rkta hwqd ceoi jled'
+        pass: 'rktahwqdceoijled'
     }
 });
 
